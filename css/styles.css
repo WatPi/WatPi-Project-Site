@@ -1,3 +1,118 @@
 body {
-    
+    background-color: #f3f7f5;
+    font-family: 'Lato', sans-serif;
 }
+
+h2, h3, h4, h5 {
+    font-family: 'Merriweather', serif;
+}
+
+.my-bar {
+    padding: 1rem 0.5rem;
+}
+
+.my-bar, .menu a, .menu-text{
+    background-color: #1d2637;
+    color: #f3f7f5;
+}
+
+.menu-text {
+    color: #f18981;
+}
+
+.my-stats, .my-stats a {
+    background-color: #1d2637;
+    padding: 1.5rem 0.5rem;
+}
+
+.stat {
+    color: #f18981;
+    padding: 0.2rem;
+}
+
+.my-callout {
+    background-color: #6e5379;
+    color: #f3f7f5;
+    margin-bottom: 0;
+    background-image: url("../my_watpi.png");
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-position-y: -140px;
+    background-size: 100%;
+    height: 50vh;
+}
+
+.my-main h1 {
+    color: #a1b1c5;
+    font-family: 'Merriweather', serif;
+}
+
+.my-main {
+    background-color: #f3f7f5;
+    color: #1d2637;
+    padding: 1.5rem 1rem;
+}
+
+.medium-push-6 > a {
+    margin-top: 3vh;
+}
+
+.my-main h2, .my-main h3 { 
+    color: #1d2637;
+}
+
+.my-images {
+    padding: 1rem;
+    color: #6e5379;
+    background-color: #f3f7f5;
+}
+
+.my-images h3 {
+    padding-bottom: 0.75rem;
+}
+
+.pink {
+    background-color: #f18981;
+    color: #f18981;
+}
+
+.orange {
+    background-color: #f39c3a;
+    color: #f39c3a;
+}
+
+.navy {
+    background-color: #1d2637;
+    color: #1d2637;
+}
+
+.light-blue {
+    background-color: #a1b1c5;
+    color: #a1b1c5;
+}
+
+.blue {
+    background-color: #7d9eae;
+    color: #7d9eae;
+}
+
+.blue {
+    background-color: #337ab7;
+    color: #337ab7;
+}
+
+.white {
+    background-color: #f3f7f5;
+    color: #f3f7f5;
+}
+
+.dark-purple {
+    background-color: #343041;
+    color: #343041;
+}
+
+.light-purple {
+    background-color: #6e5379;
+    color: #6e5379;
+}
+
