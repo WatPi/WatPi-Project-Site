@@ -8,7 +8,19 @@ h2, h3, h4, h5 {
 }
 
 .my-bar {
-    padding: 1rem 0.5rem;
+    padding: 0.25rem 0.5rem;
+}
+
+.featured {
+    display: inline-block; 
+    padding-right: 1rem;
+    width: 200px;
+}
+
+.card-image > img {
+    object-fit: cover;
+    width: 100%;
+    height: 250px;
 }
 
 .my-bar, .menu a, .menu-text{
@@ -34,12 +46,23 @@ h2, h3, h4, h5 {
     background-color: #6e5379;
     color: #f3f7f5;
     margin-bottom: 0;
-    background-image: url("../my_watpi.png");
+    background-image: url("../images/Rover-sketch.png");
     background-repeat: no-repeat;
-    background-position: top center;
+    background-position: bottom center;
     background-position-y: -140px;
     background-size: 100%;
     height: 50vh;
+    border-left: 0;
+    border-right: 0;
+}
+
+.menu-dark > li {
+    background-color: #1d2637;
+}
+
+.logo {
+    height: 35px;
+    margin-right: 0.7rem;
 }
 
 .my-main h1 {
