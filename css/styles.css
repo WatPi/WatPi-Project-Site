@@ -8,7 +8,7 @@ h2, h3, h4, h5 {
 }
 
 .my-title {
-    text-shadow: 0px 0px 1px #000000;
+    text-shadow: 0px 0px 0.5px #000000;
 }
 
 .my-bar {
@@ -99,36 +99,40 @@ h2, h3, h4, h5 {
 }
 
 .pink {
-    background-color: #f18981;
+    background-color: #f18981 !important;
 }
 
 .pink-text {
-    color: #f18981;
+    color: #f18981 !important;
 }
 
 .orange {
-    background-color: #f39c3a;
+    background-color: #f39c3a !important;
 }
 
 .orange-text {
-    color: #f39c3a;
+    color: #f39c3a !important;
 }
 
 .navy {
-    background-color: #1d2637;
-    color: #1d2637;
+    background-color: #1d2637 !important;
+
+}
+
+.navy-font {
+    color: #1d2637 !important;
 }
 
 .light-blue {
-    background-color: #a1b1c5;
+    background-color: #a1b1c5 !important;
 }
 
 .light-blue-font {
-    color: #a1b1c5;
+    color: #a1b1c5 !important;
 }
 
 .medium-blue {
-    background-color: #7d9eae;
+    background-color: #7d9eae !important;
 }
 
 .medium-blue-font {
@@ -136,8 +140,7 @@ h2, h3, h4, h5 {
 }
 
 .blue {
-    background-color: #337ab7;
-    color: #337ab7;
+    background-color: #337ab7 !important;
 }
 
 .blue-font {
@@ -145,8 +148,12 @@ h2, h3, h4, h5 {
 }
 
 .white {
-    background-color: #f3f7f5;
-    color: #f3f7f5;
+    background-color: #f3f7f5 !important;
+
+}
+
+.white-font {
+    color: #f3f7f5 !important;
 }
 
 .dark-purple {
@@ -162,7 +169,7 @@ h2, h3, h4, h5 {
 }
 
 .light-purple {
-    background-color: #6e5379;
+    background-color: #6e5379 !important;
 }
 
 .thin {
@@ -171,4 +178,8 @@ h2, h3, h4, h5 {
 
 .small {
     font-size: 90% !important;
+}
+
+h5 {
+    font-weight: lighter !important;
 }
