@@ -1,248 +1,374 @@
 <!doctype html>
 <html class="no-js" lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>WatPi</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
-    <link rel="stylesheet" href="http://dhbhdrzi4tiry.cloudfront.net/cdn/sites/foundation.min.css">
-    <link rel="stylesheet" href="css/styles.css">
-    <link href="https://fonts.googleapis.com/css?family=Lato|Merriweather|Roboto|Material+Icons" rel="stylesheet">
-    <script src="https://use.fontawesome.com/842a2317d1.js"></script>
-  </head>
-  <body>
-    
-    <!-- Start Top Bar -->
-    <div class="top-bar my-bar valign-wrapper">
-      <div class="top-bar-left">
-        <ul class="menu menu-dark">
-          <li class="menu-text"><img src="images/pi_site_icon.png" class="logo">WatPi</li>
-          <li><a href="http://connect.watpi.com/">Dashboard</a></li>
-          <li><a href="http://connect.watpi.com/">Gallery</a></li>
-          <li><a href="http://connect.watpi.com/">Login</a></li>
-        </ul>
-      </div>
-      <div class="top-bar-right">
-        <ul class="menu">
-        </ul>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>WatPi</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
+  <link rel="stylesheet" href="http://dhbhdrzi4tiry.cloudfront.net/cdn/sites/foundation.min.css">
+  <link rel="stylesheet" href="css/styles.css">
+  <link href="https://fonts.googleapis.com/css?family=Lato:300,400,400i,700|Merriweather:400,700" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Roboto|Material+Icons" rel="stylesheet">
+  <script src="https://use.fontawesome.com/842a2317d1.js"></script>
+  <link rel="stylesheet" href="https://i.icomoon.io/public/temp/61c9573e09/WatPi/style.css">
+</head>
+<body>
+  <!-- Start Top Bar -->
+  <div class="top-bar my-bar valign-wrapper">
+    <div class="top-bar-left">
+      <ul class="menu menu-dark">
+        <li class="menu-text">
+          <img src="images/pi_site_icon.png" class="logo">WatPi
+        </li>
+        <li>
+          <a href="http://connect.watpi.com/">Dashboard</a>
+        </li>
+        <li>
+          <a href="http://connect.watpi.com/gallery">Gallery</a>
+        </li>
+        <li>
+          <a href="https://photos.app.goo.gl/So5Bcs7wapNEAoRm1">Demo Video</a>
+        </li>
+      </ul>
+    </div>
+    <div class="top-bar-right">
+      <ul class="menu">
+      </ul>
+    </div>
+  </div>
+  <!-- End Top Bar -->
+  <div class="my-callout">
+    <div class="callout large my-callout">
+      <div class="row column text-center">
       </div>
     </div>
-    <!-- End Top Bar -->
-    <div class="my-callout">
-      <div class="callout large my-callout">
-        <div class="row column text-center">
+  </div>
+  <div class="my-main">
+    <div class="row valign-wrapper">
+      <div class="medium-6 columns medium-push-6">
+        <div class="git-button right">
+          <a class="waves-effect waves-light btn blue lighten-3" href="https://github.com/WatPi/WatPi">
+            <i class="fa fa-github material-icons right"></i>View on Github
+          </a>
+        </div>
+      </div>
+      <div class="medium-6 columns medium-pull-6">
+        <h1>WatPi</h1>
+        <p class="lead">
+          A Python-powered robot built using Django and a Raspberry Pi
+        </p>
+      </div>
+    </div>
+    <div class="row">
+      <hr>
+      <div class="medium-4 columns">
+        <h3>Raspberry Pi</h3>
+        <p>
+          WatPi is assembled from a Raspberry Pi 3, PiCamera, DC motor HAT, rover chassis kit, and a pair of googly eyes.
+        </p>
+      </div>
+      <div class="medium-4 columns">
+        <h3>Django</h3>
+        <p>
+          WatPi is controlled using a user dashboard web app powered by Django with a customized user registration and login system.
+        </p>
+      </div>
+      <div class="medium-4 columns">
+        <h3>Web Sockets</h3>
+        <p>
+          When WatPi takes a picture, the user can decide to share, using the power of web sockets to allow an audience to see the
+          picture on a special gallery page.
+        </p>
+      </div>
+    </div>
+  </div>
+  <div class="my-stats">
+    <div class="row column stats">
+      <ul class="vertical medium-horizontal menu expanded text-center">
+        <li>
+          <a href="#">
+            <div class="stat">3</div>
+            <span>Apprentice Developers</span>
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <div class="stat">7</div>
+            <span>Days</span>
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <div class="stat">64</div>
+            <span>Files</span>
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <div class="stat">130</div>
+            <span>Git Commits</span>
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <div class="stat">3,000,000,000</div>
+            <span>Lines of Code</span>
+          </a>
+        </li>
+      </ul>
+    </div>
+  </div>
+  <div class="my-images">
+    <div class="row">
+      <h3>Our progress</h3>
+    </div>
+    <div class="row">
+      <div class="col s4">
+        <div class="card hoverable">
+          <div class="card-image">
+            <img src="images/watpi-mockup.png">
+          </div>
+          <div class="card-content dark-purple-font">
+            <span class="card-title my-title">Initial Mock-up</span>
+            <p>
+              Our original WatPi idea wireframes consisted of a very simple user dashboard that could be used to control its movement along
+              with a camera view that contained captured images.
+            </p>
+          </div>
+          <div class="card-action center-align">
+            <a class="waves-effect waves-light btn blue lighten-3" href="images/watpi-mockup.png">View Initial Design</a>
+          </div>
+        </div>
+      </div>
+      <div class="col s4">
+        <div class="card hoverable">
+          <div class="card-image">
+            <img src="images/Screen Shot 2017-10-11 at 10.05.13 PM.png">
+          </div>
+          <div class="card-content dark-purple-font">
+            <span class="card-title my-title">Custom User Login</span>
+            <p>The WatPi features a customized user login system so that only one person can send movement commands to the WatPi
+              at once.</p>
+          </div>
+          <div class="card-action center-align">
+            <a class="waves-effect waves-light btn blue lighten-3" href="images/Screen Shot 2017-10-11 at 10.05.13 PM.png">View Login Page</a>
+          </div>
+        </div>
+      </div>
+      <div class="col s4">
+        <div class="card hoverable">
+          <div class="card-image">
+            <img src="images/Screen Shot 2017-10-11 at 8.10.42 PM.png">
+          </div>
+          <div class="card-content dark-purple-font">
+            <span class="card-title my-title">Dashboard Controls</span>
+            <p>On the "dashboard" page of the web app, the user can drive the WatPi using a virtual game control panel.</p>
+          </div>
+          <div class="card-action center-align">
+            <a class="waves-effect waves-light btn blue lighten-3" href="images/Screen Shot 2017-10-11 at 8.10.42 PM.png">View Dashboard Page</a>
+          </div>
         </div>
       </div>
     </div>
-    
-    <div class="my-main">
-      <div class="row valign-wrapper">
-        <div class="medium-6 columns medium-push-6">
-          <div class="git-button right"><a class="waves-effect waves-light btn blue lighten-3" href="https://github.com/WatPi/WatPi"><i class="fa fa-github material-icons right"></i>View on Github</a></div>
-        </div>
-        <div class="medium-6 columns medium-pull-6">
-          <h1>WatPi</h1>
-          <p class="lead">A Python-powered robot built using Django and a Raspberry Pi</p>
-        </div>
-      </div>
-    
-      <div class="row">
-        <hr>
-        <div class="medium-4 columns">
-          <h3>Raspberry Pi</h3>
-          <p>Stay tuned! All of this will soon be a thing. In condimentum facilisis porta. Sed nec diam eu diam mattis viverra. Nulla fringilla, orci ac euismod semper, magna.</p>
-        </div>
-        <div class="medium-4 columns">
-          <h3>Django</h3>
-          <p>Django's pretty cool. Vivamus luctus urna sed urna ultricies ac tempor dui sagittis. In condimentum facilisis porta. Sed nec diam eu diam mattis viverra. Nulla fringilla, orci ac euismod semper, magna.</p>
-        </div>
-        <div class="medium-4 columns">
-          <h3>Ajax/jQuery</h3>
-          <p>We used sockets too! Vivamus luctus urna sed urna ultricies ac tempor dui sagittis. In condimentum facilisis porta. Sed nec diam eu diam mattis viverra. Nulla fringilla, orci ac euismod semper, magna.</p>
-        </div>
-      </div>
-    </div>
-
-    <div class="my-stats">
-      <div class="row column stats">
-        <ul class="vertical medium-horizontal menu expanded text-center">
-          <li><a href="#"><div class="stat">3</div><span>Apprentice Developers</span></a></li>
-          <li><a href="#"><div class="stat">7</div><span>Days</span></a></li>
-          <li><a href="#"><div class="stat">64</div><span>Files</span></a></li>
-          <li><a href="#"><div class="stat">130</div><span>Git Commits</span></a></li>
-          <li><a href="#"><div class="stat">3,000,000,000</div><span>Lines of Code</span></a></li>
-        </ul>
-      </div>
-    </div>
-
-    <div class="my-images">
-      <div class="row">
-        <h3>Our progress</h3>
-      </div>
-
-      <div class="row">
-        <div class="col s4">
-          <div class="card">
-            <div class="card-image">
-              <img src="images/pexels-photo-57007.jpeg">
-              <span class="card-title">Raspberry Pi</span>
-            </div>
-            <div class="card-content">
-              <p>I am a very simple card. I am good at containing small bits of information. I am convenient because I require little
-                markup to use effectively.</p>
-            </div>
-            <div class="card-action">
-              <a href="#">This is a link</a>
-            </div>
+    <div class="row">
+      <div class="col s4">
+        <div class="card hoverable">
+          <div class="card-image">
+            <img src="images/pexels-photo-57007.jpeg">
           </div>
-        </div>
-        <div class="col s4">
-          <div class="card">
-            <div class="card-image">
-              <img src="images/group_selfie.jpg">
-              <span class="card-title">First Selfie!</span>
-            </div>
-            <div class="card-content">
-              <p>I am a very simple card. I am good at containing small bits of information. I am convenient because I require little
-                markup to use effectively.</p>
-            </div>
-            <div class="card-action">
-              <a href="#">This is a link</a>
-            </div>
+          <div class="card-content dark-purple-font">
+            <span class="card-title my-title">Materials Used</span>
+            <form action="#">
+              <p>
+                <input type="checkbox" id="mat1" />
+                <label for="mat1"><span class="dark-purple-font">Raspberry Pi 3</span>
+                </label>
+                <a href="https://www.adafruit.com/product/3055">
+                  <span class="new badge blue lighten-3" data-badge-caption="Adafruit"></span>
+                </a>
+              </p>
+              <a>
+                <input class="dark-purple-text" type="checkbox" id="mat2" />
+                <label for="mat2"><span class="dark-purple-font">SD card for installing OS</span>
+                </label>
+                <a href="https://www.amazon.com/dp/B01H5ZNOYG/ref=olp_product_details?_encoding=UTF8&me=">
+                  <span class="new badge blue darken-2" data-badge-caption="Amazon"></span>
+                </a>
+              </a>
+              </p>
+              <p>
+                <input type="checkbox" id="mat3" />
+                <label for="mat3"><span class="dark-purple-font">DC Stepper Motor HAT</span>
+                </label>
+                <a href="https://www.adafruit.com/product/2348">
+                  <span class="new badge blue lighten-3" data-badge-caption="Adafruit"></span>
+                </a>
+              </p>
+              <p>
+                <input type="checkbox" id="mat4" />
+                <label for="mat4"><span class="dark-purple-font">PiCamera</span>
+                </label>
+                <a href="https://www.adafruit.com/product/3099">
+                  <span class="new badge blue lighten-3" data-badge-caption="Adafruit"></span>
+                </a>
+              </p>
+              <p>
+                <input type="checkbox" id="mat5" />
+                <label for="mat5"><span class="dark-purple-font">2WD Chassis Kit w/ Motors</span>
+                </label>
+                <a href="https://www.adafruit.com/product/2939">
+                  <span class="new badge blue lighten-3" data-badge-caption="Adafruit"></span>
+                </a>
+              </p>
+              <p>
+                <input type="checkbox" id="mat6" />
+                <label for="mat6"><span class="dark-purple-font">Pi Mobile Power Supply</span>
+                </label>
+                <a href="https://www.amazon.com/Anker-PowerCore-Lipstick-Sized-Generation-Batteries/dp/B005X1Y7I2/ref=sr_1_6?ie=UTF8&qid=1514187051&sr=8-6&keywords=mobile+power+bank">
+                  <span class="new badge blue darken-2" data-badge-caption="Amazon"></span>
+                </a>
+              </p>
+              <p>
+                <input type="checkbox" id="mat7" />
+                <label for="mat7"><span class="dark-purple-font">Motor HAT Power Supply</span>
+                </label>
+                <a href="https://www.adafruit.com/product/830">
+                  <span class="new badge blue lighten-3" data-badge-caption="Adafruit"></span>
+                </a>
+              </p>
+              <p>
+                <input type="checkbox" id="mat8" />
+                <label for="mat8">
+                  <span class="dark-purple-font">Breadboard wiring for connecting the Pi and Motor HAT</span>
+                </label>
+              </p>
+              <p>
+                <input type="checkbox" id="mat9" />
+                <label for="mat9">
+                  <span class="dark-purple-font">Electrical Tape</span>
+                </label>
+              </p>
+              <p>
+                <input type="checkbox" id="mat10" />
+                <label for="mat10">
+                  <span class="dark-purple-font">Googly Eyes</span>
+                </label>
+              </p>
+            </form>
           </div>
-        </div>
-        <div class="col s4">
-          <div class="card">
-            <div class="card-image">
-              <img src="images/watpi-mockup.png">
-              <span class="card-title">Initial Mock-up</span>
-            </div>
-            <div class="card-content">
-              <p>I am a very simple card. I am good at containing small bits of information. I am convenient because I require little
-                markup to use effectively.</p>
-            </div>
-            <div class="card-action">
-              <a href="#">This is a link</a>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <div class="row">
-        <div class="col s4">
-          <div class="card">
-            <div class="card-image">
-              <img src="images/watpi-resized.png">
-              <span class="card-title">Assembling WatPi</span>
-            </div>
-            <div class="card-content">
-              <p>I am a very simple card. I am good at containing small bits of information. I am convenient because I require little
-                markup to use effectively.</p>
-            </div>
-            <div class="card-action">
-              <a href="#">This is a link</a>
-            </div>
-          </div>
-        </div>
-        <div class="col s4">
-          <div class="card">
-            <div class="card-image">
-              <img src="images/Screen Shot 2017-10-11 at 10.05.13 PM.png">
-              <span class="card-title">Custom User Login</span>
-            </div>
-            <div class="card-content">
-              <p>I am a very simple card. I am good at containing small bits of information. I am convenient because I require little
-                markup to use effectively.</p>
-            </div>
-            <div class="card-action">
-              <a href="#">This is a link</a>
-            </div>
-          </div>
-        </div>
-        <div class="col s4">
-          <div class="card">
-            <div class="card-image">
-              <img src="images/Screen Shot 2017-10-11 at 8.10.42 PM.png">
-              <span class="card-title">Dashboard Controls</span>
-            </div>
-            <div class="card-content">
-              <p>I am a very simple card. I am good at containing small bits of information. I am convenient because I require little
-                markup to use effectively.</p>
-            </div>
-            <div class="card-action">
-              <a href="#">This is a link</a>
-            </div>
+          <div class="card-action center-align">
+            <a class="waves-effect waves-light btn blue lighten-3" href="https://github.com/WatPi/WatPi#list-of-materials">Full List of Materials</a>
           </div>
         </div>
       </div>
-
-      <!-- <div class="row">
-        <div class="col s4">
-          <div class="card">
-            <div class="card-image">
-              <img src="images/watpi-mockup.png">
-              <span class="card-title">Card Title</span>
-            </div>
-            <div class="card-content">
-              <p>I am a very simple card. I am good at containing small bits of information. I am convenient because I require little
-                markup to use effectively.</p>
-            </div>
-            <div class="card-action">
-              <a href="#">This is a link</a>
-            </div>
+      <div class="col s4">
+        <div class="card hoverable">
+          <div class="card-image">
+            <img src="images/watpi-resized.png">
           </div>
-        </div>
-        <div class="col s4">
-          <div class="card">
-            <div class="card-image">
-              <img src="images/RaspberryPiReedSwitch_bb.png">
-              <span class="card-title">Card Title</span>
-            </div>
-            <div class="card-content">
-              <p>I am a very simple card. I am good at containing small bits of information. I am convenient because I require little
-                markup to use effectively.</p>
-            </div>
-            <div class="card-action">
-              <a href="#">This is a link</a>
-            </div>
+          <div class="card-content dark-purple-font">
+            <span class="card-title my-title">Assembling WatPi</span>
+            <p>Here are a few links to resources to get you started on making your own WatPi:
+              <div class="collection">
+                <a class="collection-item valign-wrapper blue-font" href="https://www.raspberrypi.org/learning/software-guide/">
+                  <span class="icon-brand2 secondary-content blue-text text-darken-2"></span>Step-by-Step Guide to Raspberry
+                  Pi
+                </a>
+                <a class="collection-item valign-wrapper blue-font" href="https://learn.adafruit.com/simple-raspberry-pi-robot?embeds=allow">
+                  <span class="icon-tools secondary-content blue-text text-darken-2"></span>Assemble the Rover and Connect
+                  a Motor HAT</a>
+                <a class="collection-item valign-wrapper blue-font" href="https://www.youtube.com/watch?v=QKbJxytERvg">
+                  <span class="icon-circuit-board secondary-content blue-text text-darken-2"></span>How To Solder the Motor
+                  HAT
+                </a>
+                <a class="collection-item valign-wrapper blue-font" href="https://picamera.readthedocs.io/en/release-1.13/">
+                  <span class="icon-camera2 secondary-content blue-text text-darken-2"></span>PiCamera Documentation
+                </a>
+              </div>
+            </p>
           </div>
-        </div>
-        <div class="col s4">
-          <div class="card">
-            <div class="card-image">
-              <img src="images/Raspberry_Pi_B+_rev_1.2.svg.png">
-              <span class="card-title">Card Title</span>
-            </div>
-            <div class="card-content">
-              <p>I am a very simple card. I am good at containing small bits of information. I am convenient because I require little
-                markup to use effectively.</p>
-            </div>
-            <div class="card-action">
-              <a href="#">This is a link</a>
-            </div>
+          <div class="card-action center-align">
+            <a class="waves-effect waves-light btn blue lighten-3" href="https://github.com/WatPi/WatPi/wiki">List of Helpful Resources</a>
           </div>
         </div>
       </div>
-    </div> -->
-
-    <div class="my-bar">
-      <div class="row column">
-        <ul class="menu">
-          <li><a href="https://github.com/WatPi/WatPi/wiki/Information">About</a></li>
-          <li><a href="https://github.com/WatPi/WatPi/wiki">Resources</a></li>
-          <li><a href="https://www.destroyallsoftware.com/talks/wat">WAT</a></li>
-        </ul>
+      <div class="col s4">
+        <div class="card hoverable">
+          <div class="card-image">
+            <img src="images/group_selfie.jpg">
+          </div>
+          <div class="card-content dark-purple-font">
+            <span class="card-title my-title">WatPi Creators</span>
+            <ul class="collection">
+              <li class="collection-item avatar valign-wrapper">
+                <img src="https://avatars1.githubusercontent.com/u/4056118?s=460&v=4" alt="" class="circle">
+                <div>
+                  <span class="title">Lex Myers</span>
+                  <p class="thin small">
+                    Websocket slayer
+                    <br> Login & Registration
+                  </p>
+                </div>
+                <a class="secondary-content waves-effect waves-light btn-floating blue lighten-3 center-align valign-wrapper right" href="https://github.com/lexm"><span class="icon-brand"></span>
+                </a>
+                <br>
+              </li>
+              <li class="collection-item avatar valign-wrapper">
+                <img src="https://avatars3.githubusercontent.com/u/23284999?s=460&v=4" alt="" class="circle">
+                <div>
+                  <span class="title">Lola Wang</span>
+                  <p class="thin small">
+                    Robot assembler
+                    <br> CSS design
+                  </p>
+                </div>
+                <a class="secondary-content waves-effect waves-light btn-floating blue lighten-3 center-align valign-wrapper right" href="https://github.com/ayuspark"><span class="icon-brand"></span>
+                </a>
+                <br>
+              </li>
+              <li class="collection-item avatar valign-wrapper">
+                <img src="https://avatars0.githubusercontent.com/u/18458620?s=460&v=4" alt="" class="circle">
+                <div>
+                  <span class="title">Maki Roggers</span>
+                  <p class="thin small">
+                    Camera capturer
+                    <br> Google API integration
+                  </p>
+                </div>
+                <a class="secondary-content waves-effect waves-light btn-floating blue lighten-3 center-align valign-wrapper right" href="https://github.com/makiroggers"><span class="icon-brand"></span>
+                </a>
+                <br>
+              </li>
+            </ul>
+          </div>
+          <div class="card-action center-align">
+            <a class="waves-effect waves-light btn blue lighten-3" href="https://github.com/WatPi">WatPi Github Repository</a>
+          </div>
+        </div>
       </div>
     </div>
-    
-    <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
-    <script src="http://dhbhdrzi4tiry.cloudfront.net/cdn/sites/foundation.js"></script>
-    <script>
-      $(document).foundation();
-    </script>
-  </body>
+  </div>
+  <div class="my-bar">
+    <div class="row column">
+      <ul class="menu">
+        <li>
+          <a href="https://github.com/WatPi/WatPi/wiki/Information">About</a>
+        </li>
+        <li>
+          <a href="https://github.com/WatPi/WatPi/wiki">Resources</a>
+        </li>
+        <li>
+          <a href="https://www.destroyallsoftware.com/talks/wat">WAT</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+  <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
+  <script src="http://dhbhdrzi4tiry.cloudfront.net/cdn/sites/foundation.js"></script>
+  <script>
+    $(document)
+      .foundation();
+  </script>
+</body>
 </html>
-
-
-    

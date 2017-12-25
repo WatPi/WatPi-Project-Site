@@ -7,6 +7,10 @@ h2, h3, h4, h5 {
     font-family: 'Merriweather', serif;
 }
 
+.my-title {
+    text-shadow: 0px 0px 1px #000000;
+}
+
 .my-bar {
     padding: 0.25rem 0.5rem;
 }
@@ -96,11 +100,17 @@ h2, h3, h4, h5 {
 
 .pink {
     background-color: #f18981;
+}
+
+.pink-text {
     color: #f18981;
 }
 
 .orange {
     background-color: #f39c3a;
+}
+
+.orange-text {
     color: #f39c3a;
 }
 
@@ -111,17 +121,27 @@ h2, h3, h4, h5 {
 
 .light-blue {
     background-color: #a1b1c5;
+}
+
+.light-blue-font {
     color: #a1b1c5;
 }
 
-.blue {
+.medium-blue {
     background-color: #7d9eae;
-    color: #7d9eae;
+}
+
+.medium-blue-font {
+    color: #7d9eae !important;
 }
 
 .blue {
     background-color: #337ab7;
     color: #337ab7;
+}
+
+.blue-font {
+    color: #337ab7 !important;
 }
 
 .white {
@@ -130,12 +150,25 @@ h2, h3, h4, h5 {
 }
 
 .dark-purple {
-    background-color: #343041;
-    color: #343041;
+    background-color: #343041 !important;
+}
+
+.dark-purple-font {
+    color: #343041 !important;
+}
+
+.light-purple-font {
+    color: #6e5379 !important;
 }
 
 .light-purple {
     background-color: #6e5379;
-    color: #6e5379;
 }
 
+.thin {
+    font-style: italic !important;
+}
+
+.small {
+    font-size: 90% !important;
+}
