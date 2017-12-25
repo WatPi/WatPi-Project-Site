@@ -111,7 +111,7 @@
         </li>
         <li>
           <a href="#">
-            <div class="stat">3,000,000,000</div>
+            <div class="stat" id="myTargetElement">1,734,031</div>
             <span>Lines of Code</span>
           </a>
         </li>
@@ -123,7 +123,7 @@
       <h3>Our progress</h3>
     </div>
     <div class="row">
-      <div class="">
+      <div class="min-width">
         <div class="col s12 m6 l4">
           <div class="card hoverable">
             <div class="card-image">
@@ -142,7 +142,7 @@
           </div>
         </div>
       </div>
-      <div class="">
+      <div class="min-width">
         <div class="col s12 m6 l4">
           <div class="card hoverable">
             <div class="card-image">
@@ -159,7 +159,7 @@
           </div>
         </div>
       </div>
-      <div class="">
+      <div class="min-width">
         <div class="col s12 m6 l4">
           <div class="card hoverable">
             <div class="card-image">
@@ -175,7 +175,7 @@
           </div>
         </div>
       </div>
-      <div class="">
+      <div class="min-width">
         <div class="col s12 m6 l4">
           <div class="card hoverable">
             <div class="card-image">
@@ -282,7 +282,7 @@
           </div>
         </div>
       </div>
-      <div class="">
+      <div class="min-width">
           <div class="col s12 m6 l4">
             <div class="card hoverable">
               <div class="card-image">
@@ -315,7 +315,7 @@
             </div>
           </div>
       </div>
-      <div class="">
+      <div class="min-width">
         <div class="col s12 m6 l4">
           <div class="card hoverable">
             <div class="card-image">
@@ -391,9 +391,24 @@
   <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
   <script src="https://dhbhdrzi4tiry.cloudfront.net/cdn/sites/foundation.js"></script>
+  <script src="node_modules/countup.js/countUp.js"></script>
   <script>
     $(document)
       .foundation();
+  </script>
+  <script>
+    var options = {
+      useEasing: true, 
+      useGrouping: true, 
+      separator: ',', 
+      decimal: '.', 
+    };
+    var demo = new CountUp('myTargetElement', 1734031, 1800000, 0, 700000, options);
+    if (!demo.error) {
+      demo.start();
+    } else {
+      console.error(demo.error);
+    }
   </script>
 </body>
 </html>

@@ -188,3 +188,7 @@ h5 {
     border-right: 2px solid #f18981 !important;
     border-bottom: 2px solid #f18981 !important;
 }
+
+.min-width {
+    min-width: 400px !important;
+}

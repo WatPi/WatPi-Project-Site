@@ -107,3 +107,4 @@ settings.yaml
 client_id.json
 storage.json
 *.zip
+node_modules
