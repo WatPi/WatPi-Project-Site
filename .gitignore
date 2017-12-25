@@ -11,7 +11,6 @@ __pycache__/
 env/
 build/
 develop-eggs/
-dist/
 downloads/
 eggs/
 .eggs/
@@ -107,4 +106,16 @@ settings.yaml
 client_id.json
 storage.json
 *.zip
-node_modules
+node_modules/countup.js/.editorconfig
+node_modules/countup.js/.npmignore
+node_modules/countup.js/.idea/workspace.xml
+node_modules/countup.js/.idea/vcs.xml
+node_modules/countup.js/.idea/modules.xml
+node_modules/countup.js/.idea/countUp.js.iml
+node_modules/countup.js/README.md
+node_modules/countup.js/package-lock.json
+node_modules/countup.js/package.json
+node_modules/countup.js/index.html
+node_modules/countup.js/gulpfile.js
+node_modules/countup.js/demo.js
+node_modules/countup.js/LICENSE.md
