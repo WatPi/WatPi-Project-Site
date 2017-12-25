@@ -50,7 +50,7 @@ h2, h3, h4, h5 {
     background-color: #6e5379;
     color: #f3f7f5;
     margin-bottom: 0;
-    background-image: url("../images/Rover-sketch.png");
+    background-image: url("../media/Rover-sketch.png");
     background-repeat: no-repeat;
     background-position: bottom center;
     background-position-y: -140px;
@@ -202,3 +202,8 @@ h5 {
     background-color: #e3f2fd !important;
     color: #1e88e5 !important;
 }
+
+/* .collection .collection-item.avatar .secondary-content:hover {
+    background-color: #8e7597;
+    color: #bcaac4;
+} */
