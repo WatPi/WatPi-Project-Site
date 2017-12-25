@@ -197,3 +197,8 @@ h5 {
     color: #f3f7f5 !important;
     font-weight: 600 !important;
 }
+
+.collection a.collection-item:hover {
+    background-color: #e3f2fd !important;
+    color: #1e88e5 !important;
+}
