@@ -12,11 +12,14 @@
 </head>
 <body>
   <!-- Start Top Bar -->
-  <div class="top-bar my-bar valign-wrapper">
+  <div class="top-bar my-bar valign-wrapper" id="navbar">
     <div class="top-bar-left">
       <ul class="menu menu-dark">
         <li class="menu-text">
           <img src="media/pi_site_icon.png" alt="WatPi Logo" class="logo">WatPi
+        </li>
+        <li>
+          <a href="#my-images">Our Progress</a>
         </li>
         <li>
           <a href="https://connect.watpi.com/">Dashboard</a>
@@ -118,9 +121,7 @@
   </div>
   <div class="my-images" id="my-images">
     <div class="row">
-      <div class="section">
-        <h3>Our progress</h3>
-      </div>
+      <h3 style="margin-top:15px">Our progress</h3>
       <div class="min-width" id="demo-video" style="display:none">
         <div class="col s12 m12 l12">
           <div class="card hoverable z-depth-2 feature">
@@ -138,7 +139,8 @@
           </div>
         </div>
       </div>
-      <div class="min-width" id="dashboard-anchor">
+      <div class="spacer" id="demo-spacer" style="display:none">&nbsp;</div>
+      <div class="min-width">
         <div class="col s12 m6 l4">
           <div class="card hoverable z-depth-2 feature">
             <div class="card-image">
@@ -196,7 +198,7 @@
           </div>
         </div>
       </div>
-      <div class="min-width" id="materials-card">
+      <div class="min-width">
         <div class="col s12 m6 l4">
           <div class="card hoverable z-depth-2 feature">
             <div class="card-image">
@@ -297,12 +299,12 @@
               </form>
             </div>
             <div class="card-action center-align">
-              <a class="waves-effect waves-light btn blue lighten-3 z-depth-1" href="https://github.com/WatPi/WatPi-Project-Site/">Full Materials List</a>
+              <a class="waves-effect waves-light btn blue lighten-3 z-depth-1" href="https://github.com/WatPi/WatPi#list-of-materials">Full List of Materials</a>
             </div>
           </div>
         </div>
       </div>
-      <div class="min-width" id="assembly-card">
+      <div class="min-width">
           <div class="col s12 m6 l4">
             <div class="card hoverable z-depth-2 feature">
               <div class="card-image">
@@ -351,7 +353,7 @@
                     <span class="title bold">Lex Myers</span>
                     <p class="thin small">
                       Websocket slayer
-                      <br>User registration
+                      <br>User login & registration
                     </p>
                   </div>
                   <a class="secondary-content waves-effect waves-light btn-floating blue lighten-3 center-align valign-wrapper right" href="https://github.com/lexm"><span class="icon-brand"></span>
@@ -363,7 +365,7 @@
                   <div>
                     <span class="title bold">Lola Wang</span>
                     <p class="thin small">
-                      Robot boss
+                      Robot boss / Django's GF
                       <br>Front-end design
                     </p>
                   </div>
@@ -398,7 +400,7 @@
     <div class="row column">
       <ul class="menu">
         <li>
-          <a href="https://github.com/WatPi/WatPi/wiki/Information">About</a>
+          <a href="https://github.com/WatPi/WatPi/issues">Contribute</a>
         </li>
         <li>
           <a href="https://github.com/WatPi/WatPi/wiki">Resources</a>
@@ -433,9 +435,12 @@
     });
     function watchVideo() {
       var x = document.getElementById("demo-video");
+      var y = document.getElementById("demo-spacer");
       if (x.style.display === "none") {
+        y.style.display = "block";
         x.style.display = "block";
       } else {
+        y.style.display = "none";
         x.style.display = "none";
       }
     }

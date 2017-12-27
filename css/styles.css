@@ -320,6 +320,10 @@
   .small {
     font-size: 90%!important;
   }
+
+  #demo-spacer {
+    margin: 10px!important;
+  }
   
   .stat {
     color: #f18981!important;
