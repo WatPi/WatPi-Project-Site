@@ -305,6 +305,13 @@
     text-shadow: 0 0 0 #000!important;
   }
   
+  .nav, .menu {
+    background-color: #1d2637!important;
+    margin: 0!important;
+    left: 0!important;
+    top: 0!important;
+  }
+
   .orange {
     background-color: #f39c3a!important;
   }
@@ -332,6 +339,13 @@
   
   .thin {
     font-style: italic!important;
+  }
+
+  #title-link {
+    display: inline-block!important;
+    left: 0!important;
+    position: relative!important;
+    color: #a1b1c5!important;
   }
   
   .white {
