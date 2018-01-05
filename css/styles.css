@@ -218,6 +218,7 @@
   
   .my-bar {
     padding: .25rem .5rem!important;
+    text-align: center!important;
   }
   
   .my-bar,.menu a,.menu-text {
