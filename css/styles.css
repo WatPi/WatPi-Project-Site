@@ -310,6 +310,7 @@
     margin: 0!important;
     left: 0!important;
     top: 0!important;
+    overflow-y: hidden!important;
   }
 
   .orange {
@@ -344,8 +345,11 @@
   #title-link {
     display: inline-block!important;
     left: 0!important;
+    margin-top: 10px!important;
     position: relative!important;
     color: #a1b1c5!important;
+    margin: 0!important;
+    padding: 0!important;
   }
   
   .white {
