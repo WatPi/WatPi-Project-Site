@@ -124,276 +124,279 @@
     </div>
   </div>
   <div class="my-images" id="my-images">
-    <div class="row">
-      <h3 style="margin-top:15px">Our progress</h3>
-      <div class="min-width container" id="demo-video" style="display:none">
-        <div class="col s12 m12 l12">
-          <div class="card hoverable z-depth-2 feature">
-            <div class="card-content">
-              <h5 class="card-title my-title light-blue-font">Demo Video</h5>
-              <video class="responsive-video" controls>
-                <source src="media/WatPi_Python_Project_720p.mp4" type="video/mp4">
-              </video>      
-            </div>
-            <div class="card-action center-align">
-              <button class="waves-effect waves-light btn blue lighten-3 z-depth-1" onclick="watchVideo();window.location.href='#my-images'">
-                Hide Video
-              </button>
-            </div>  
-          </div>
-        </div>
-        <div class="spacer" id="demo-spacer" style="display:none">&nbsp;</div>
-      </div>
-      <div class="min-width">
-        <div class="col s12 m6 l4">
-          <div class="card hoverable z-depth-2 feature">
-            <div class="card-image">
-              <img src="https://github.com/WatPi/WatPi-Project-Site/raw/master/media/watpi-mockup.png" alt="WatPi Mockup">
-            </div>
-            <div class="card-content dark-purple-font">
-              <h5 class="card-title my-title light-blue-font">Initial Mock-up</h5>
-              <p>
-                Our original idea consisted of a simple dashboard that could be used to control WatPi's movement along
-                with a camera view.
-              </p>
-            </div>
-            <div class="card-action center-align">
-              <button class="waves-effect waves-light btn blue lighten-3 z-depth-1" onclick="watchVideo();window.location.href='#my-images'">
-                Watch Demo Video
-              </button>
+    <div class="container">
+
+      <div class="row">
+        <h3 style="margin-top:15px">Our progress</h3>
+        <div class="min-width container" id="demo-video" style="display:none">
+          <div class="col s12 m12 l12">
+            <div class="card hoverable z-depth-2 feature">
+              <div class="card-content">
+                <h5 class="card-title my-title light-blue-font">Demo Video</h5>
+                <video class="responsive-video" controls>
+                  <source src="media/WatPi_Python_Project_720p.mp4" type="video/mp4">
+                </video>      
+              </div>
+              <div class="card-action center-align">
+                <button class="waves-effect waves-light btn blue lighten-3 z-depth-1" onclick="watchVideo();window.location.href='#my-images'">
+                  Hide Video
+                </button>
+              </div>  
             </div>
           </div>
+          <div class="spacer" id="demo-spacer" style="display:none">&nbsp;</div>
         </div>
-      </div>
-      <div class="min-width">
-        <div class="col s12 m6 l4">
-          <div class="card hoverable z-depth-2 feature">
-            <div class="card-image">
-              <img src="https://github.com/WatPi/WatPi-Project-Site/raw/master/media/screen%20shot%202017-10-11%20at%2010.05.13%20pm.png" alt="User Login View">
-            </div>
-            <div class="card-content dark-purple-font">
-              <h5 class="card-title my-title light-blue-font">Custom User Login</h5>
-              <p>
-                The WatPi features a customized user login system so that only one person can send movement commands to the WatPi
-                at once.
-              </p>
-            </div>
-            <div class="card-action center-align">
-              <a class="waves-effect waves-light btn blue lighten-3 z-depth-1" href="https://github.com/WatPi/WatPi-Project-Site/raw/master/media/screen%20shot%202017-10-11%20at%2010.05.13%20pm.png">View Login Page</a>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="min-width">
-        <div class="col s12 m6 l4">
-          <div class="card hoverable z-depth-2 feature">
-            <div class="card-image">
-              <img src="https://github.com/WatPi/WatPi-Project-Site/raw/master/media/screen%20shot%202017-10-11%20at%208.10.42%20pm.png" alt="Dashboard Control View">
-            </div>
-            <div class="card-content dark-purple-font">
-              <h5 class="card-title my-title light-blue-font">Dashboard Controls</h5>
-              <p>
-                On the "dashboard" page of the web app, the user can drive the WatPi using a virtual game control panel.
-              </p>
-            </div>
-            <div class="card-action center-align">
-              <a class="waves-effect waves-light btn blue lighten-3 z-depth-1" href="https://github.com/WatPi/WatPi-Project-Site/raw/master/media/screen%20shot%202017-10-11%20at%208.10.42%20pm.png">View Dashboard Page</a>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="min-width">
-        <div class="col s12 m6 l4">
-          <div class="card hoverable z-depth-2 feature">
-            <div class="card-image">
-              <img src="https://github.com/WatPi/WatPi-Project-Site/raw/master/media/pexels-photo-57007.jpeg" alt="Raspberry Pi">
-            </div>
-            <div class="card-content dark-purple-font">
-              <h5 class="card-title my-title light-blue-font">Materials Used</h5>
-              <form action="#">
-                <p>
-                  <input type="checkbox" id="mat1" />
-                  <label for="mat1"><span class="dark-purple-font">Raspberry Pi 3</span>
-                  </label>
-                  <button class="button waves-effect waves-light btn blue lighten-3 right buy-button z-depth-1" type="button" data-hover="Adafruit" data-active="Adafruit" onclick="window.location.href='https://www.adafruit.com/product/3055'">
-                    <span>Buy Now</span>
-                  </button>
-                </p>
-                <p>
-                  <input class="dark-purple-text" type="checkbox" id="mat2" />
-                  <label for="mat2"><span class="dark-purple-font">SD card for installing OS</span>
-                  </label>
-                  <button class="button waves-effect waves-light btn blue lighten-3 right buy-button z-depth-1" type="button" data-hover="Amazon" data-active="Amazon" onclick="window.location.href='https://www.amazon.com/dp/B01H5ZNOYG/ref=olp_product_details?_encoding=UTF8&me='">
-                    <span>Buy Now</span>
-                  </button>
-                </p>
-                <p>
-                  <input type="checkbox" id="mat3" />
-                  <label for="mat3"><span class="dark-purple-font">DC Stepper Motor HAT</span>
-                  </label>
-                  <button class="button waves-effect waves-light btn blue lighten-3 right buy-button z-depth-1" type="button" data-hover="Adafruit" data-active="Adafruit" onclick="window.location.href='https://www.adafruit.com/product/2348'">
-                    <span>Buy Now</span>
-                  </button>
-                </p>
-                <p>
-                  <input type="checkbox" id="mat4" />
-                  <label for="mat4"><span class="dark-purple-font">PiCamera</span>
-                  </label>
-                  <button class="button waves-effect waves-light btn blue lighten-3 right buy-button z-depth-1" type="button" data-hover="Adafruit" data-active="Adafruit" onclick="window.location.href='https://www.adafruit.com/product/3099'">
-                    <span>Buy Now</span>
-                  </button>
-                </p>
-                <p>
-                  <input type="checkbox" id="mat5" />
-                  <label for="mat5"><span class="dark-purple-font">2WD Chassis Kit</span>
-                  </label>
-                  <button class="button waves-effect waves-light btn blue lighten-3 right buy-button z-depth-1" type="button" data-hover="Adafruit" data-active="Adafruit" onclick="window.location.href='https://www.adafruit.com/product/2939'">
-                    <span>Buy Now</span>
-                  </button>
-                </p>
-                <p>
-                  <input type="checkbox" id="mat6" />
-                  <label for="mat6"><span class="dark-purple-font">Pi Mobile Power Supply</span>
-                  </label>
-                  <button class="button waves-effect waves-light btn blue lighten-3 right buy-button z-depth-1" type="button" data-hover="Amazon" data-active="Amazon" onclick="window.location.href='https://www.amazon.com/Anker-PowerCore-Lipstick-Sized-Generation-Batteries/dp/B005X1Y7I2/ref=sr_1_6?ie=UTF8&qid=1514187051&sr=8-6&keywords=mobile+power+bank'">
-                    <span>Buy Now</span>
-                  </button>
-                </p>
-                <p>
-                  <input type="checkbox" id="mat7" />
-                  <label for="mat7"><span class="dark-purple-font">Motor HAT Power Supply</span>
-                  </label>
-                  <button class="button waves-effect waves-light btn blue lighten-3 right buy-button z-depth-1" type="button" data-hover="Adafruit" data-active="Adafruit" onclick="window.location.href='https://www.adafruit.com/product/830'">
-                    <span>Buy Now</span>
-                  </button>
-                </p>
-                <p>
-                  <input type="checkbox" id="mat8" />
-                  <label for="mat8">
-                    <span class="dark-purple-font">Breadboard wiring</span>
-                  </label>
-                  <button class="button waves-effect waves-light btn blue lighten-3 right buy-button z-depth-1" type="button" data-hover="Amazon" data-active="Amazon" onclick="window.location.href='https://www.amazon.com/Adafruit-Premium-Female-Extension-Jumper/dp/B00SK8L0IU/ref=sr_1_3?s=electronics&ie=UTF8&qid=1514203461&sr=1-3&keywords=pi+wiring'">
-                    <span>Buy Now</span>
-                  </button>
-                </p>
-                <p>
-                  <input type="checkbox" id="mat9" />
-                  <label for="mat9">
-                    <span class="dark-purple-font">Electrical Tape</span>
-                  </label>
-                  <button class="button waves-effect waves-light btn blue lighten-3 right buy-button z-depth-1" type="button" data-hover="Amazon" data-active="Amazon" onclick="window.location.href='https://www.amazon.com/Duck-299006-4-Inch-Utility-Electrical/dp/B001B19JLS/ref=sr_1_3?s=industrial&ie=UTF8&qid=1514203537&sr=1-3&keywords=electrical+tape'">
-                    <span>Buy Now</span>
-                  </button>
-                </p>
-                <p>
-                  <input type="checkbox" id="mat10" />
-                  <label for="mat10">
-                    <span class="dark-purple-font">Googly Eyes</span>
-                  </label>
-                  <button class="button waves-effect waves-light btn blue lighten-3 right buy-button z-depth-1" type="button" data-hover="Amazon" data-active="Amazon" onclick="window.location.href='https://www.amazon.com/Toy-Assorted-Googly-Monster-Puppets/dp/B013FA2N38/ref=sr_1_4?s=toys-and-games&ie=UTF8&qid=1514203361&sr=1-4&keywords=eye+rings'">
-                      <span>Buy Now</span>
-                  </button>
-                </p>
-                <p>
-                  <input type="checkbox" id="mat11" />
-                  <label for="mat11">
-                    <span class="dark-purple-font">Cardboard</span>
-                  </label>
-                </p>
-              </form>
-            </div>
-            <div class="card-action center-align">
-              <a class="waves-effect waves-light btn blue lighten-3 z-depth-1" href="https://github.com/WatPi/WatPi#list-of-materials">Full List of Materials</a>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="min-width">
+        <div class="min-width">
           <div class="col s12 m6 l4">
             <div class="card hoverable z-depth-2 feature">
               <div class="card-image">
-                <img src="https://github.com/WatPi/WatPi-Project-Site/raw/master/media/watpi-resized.png" alt="Our WatPi">
+                <img src="https://github.com/WatPi/WatPi-Project-Site/raw/master/media/watpi-mockup.png" alt="WatPi Mockup">
               </div>
               <div class="card-content dark-purple-font">
-                <h5 class="card-title my-title light-blue-font">Assembling WatPi</h5>
+                <h5 class="card-title my-title light-blue-font">Initial Mock-up</h5>
                 <p>
-                  Here are a few links to resources to get you started on making your own WatPi:
+                  Our original idea consisted of a simple dashboard that could be used to control WatPi's movement along
+                  with a camera view.
                 </p>
-                <div class="collection" style="margin-bottom:12px">
-                  <a class="collection-item valign-wrapper blue-font" href="https://www.raspberrypi.org/learning/software-guide/">
-                    <span class="icon-brand2 secondary-content blue-text text-darken-2"></span>Step-by-Step Guide to Raspberry
-                    Pi
-                  </a>
-                  <a class="collection-item valign-wrapper blue-font" href="https://learn.adafruit.com/simple-raspberry-pi-robot?embeds=allow">
-                    <span class="icon-tools secondary-content blue-text text-darken-2"></span>Assemble the Rover and Connect
-                    a Motor HAT</a>
-                  <a class="collection-item valign-wrapper blue-font" href="https://www.youtube.com/watch?v=QKbJxytERvg">
-                    <span class="icon-circuit-board secondary-content blue-text text-darken-2"></span>How To Solder the Motor
-                    HAT
-                  </a>
-                  <a class="collection-item valign-wrapper blue-font" href="https://picamera.readthedocs.io/en/release-1.13/">
-                    <span class="icon-camera2 secondary-content blue-text text-darken-2"></span>PiCamera Documentation
-                  </a>
-                </div>
               </div>
               <div class="card-action center-align">
-                <a class="waves-effect waves-light btn blue lighten-3 z-depth-1" href="https://github.com/WatPi/WatPi/wiki">Full List of Resources</a>
+                <button class="waves-effect waves-light btn blue lighten-3 z-depth-1" onclick="watchVideo();window.location.href='#my-images'">
+                  Watch Demo Video
+                </button>
               </div>
             </div>
           </div>
-      </div>
-      <div class="min-width">
-        <div class="col s12 m6 l4">
-          <div class="card hoverable z-depth-2 feature">
-            <div class="card-image">
-              <img src="https://github.com/WatPi/WatPi-Project-Site/raw/master/media/group_selfie.jpg" alt="Lex, Lola, and Maki">
+        </div>
+        <div class="min-width">
+          <div class="col s12 m6 l4">
+            <div class="card hoverable z-depth-2 feature">
+              <div class="card-image">
+                <img src="https://github.com/WatPi/WatPi-Project-Site/raw/master/media/screen%20shot%202017-10-11%20at%2010.05.13%20pm.png" alt="User Login View">
+              </div>
+              <div class="card-content dark-purple-font">
+                <h5 class="card-title my-title light-blue-font">Custom User Login</h5>
+                <p>
+                  The WatPi features a customized user login system so that only one person can send movement commands to the WatPi
+                  at once.
+                </p>
+              </div>
+              <div class="card-action center-align">
+                <a class="waves-effect waves-light btn blue lighten-3 z-depth-1" href="https://github.com/WatPi/WatPi-Project-Site/raw/master/media/screen%20shot%202017-10-11%20at%2010.05.13%20pm.png">View Login Page</a>
+              </div>
             </div>
-            <div class="card-content dark-purple-font">
-              <h5 class="card-title my-title light-blue-font">WatPi Creators</h5>
-              <ul class="collection" style="margin-bottom:0px">
-                <li class="collection-item avatar valign-wrapper">
-                  <img src="https://avatars1.githubusercontent.com/u/4056118?s=460&v=4" alt="Lex Myers" class="circle">
-                  <div>
-                    <span class="title bold">Lex Myers</span>
-                    <p class="thin small">
-                      Websocket slayer
-                      <br>User login & registration
-                    </p>
-                  </div>
-                  <a class="secondary-content waves-effect waves-light btn-floating blue lighten-3 center-align valign-wrapper right" href="https://github.com/lexm"><span class="icon-brand"></span>
-                  </a>
-                  <br>
-                </li>
-                <li class="collection-item avatar valign-wrapper">
-                  <img src="https://avatars3.githubusercontent.com/u/23284999?s=460&v=4" alt="Lola Wang" class="circle">
-                  <div>
-                    <span class="title bold">Lola Wang</span>
-                    <p class="thin small">
-                      Robot boss / Django's GF
-                      <br>Front-end design
-                    </p>
-                  </div>
-                  <a class="secondary-content waves-effect waves-light btn-floating blue lighten-3 center-align valign-wrapper right" href="https://github.com/ayuspark"><span class="icon-brand"></span>
-                  </a>
-                  <br>
-                </li>
-                <li class="collection-item avatar valign-wrapper">
-                  <img src="https://avatars0.githubusercontent.com/u/18458620?s=460&v=4" alt="Maki Roggers" class="circle">
-                  <div>
-                    <span class="title bold">Maki Roggers</span>
-                    <p class="thin small">
-                      Project manager
-                      <br>Camera & API integration
-                    </p>
-                  </div>
-                  <a class="secondary-content waves-effect waves-light btn-floating blue lighten-3 center-align valign-wrapper right" href="https://github.com/makiroggers"><span class="icon-brand"></span>
-                  </a>
-                  <br>
-                </li>
-              </ul>
+          </div>
+        </div>
+        <div class="min-width">
+          <div class="col s12 m6 l4">
+            <div class="card hoverable z-depth-2 feature">
+              <div class="card-image">
+                <img src="https://github.com/WatPi/WatPi-Project-Site/raw/master/media/screen%20shot%202017-10-11%20at%208.10.42%20pm.png" alt="Dashboard Control View">
+              </div>
+              <div class="card-content dark-purple-font">
+                <h5 class="card-title my-title light-blue-font">Dashboard Controls</h5>
+                <p>
+                  On the "dashboard" page of the web app, the user can drive the WatPi using a virtual game control panel.
+                </p>
+              </div>
+              <div class="card-action center-align">
+                <a class="waves-effect waves-light btn blue lighten-3 z-depth-1" href="https://github.com/WatPi/WatPi-Project-Site/raw/master/media/screen%20shot%202017-10-11%20at%208.10.42%20pm.png">View Dashboard Page</a>
+              </div>
             </div>
-            <div class="card-action center-align">
-              <a class="waves-effect waves-light btn blue lighten-3 z-depth-1" href="https://github.com/WatPi">WatPi Github Repo</a>
+          </div>
+        </div>
+        <div class="min-width">
+          <div class="col s12 m6 l4">
+            <div class="card hoverable z-depth-2 feature">
+              <div class="card-image">
+                <img src="https://github.com/WatPi/WatPi-Project-Site/raw/master/media/pexels-photo-57007.jpeg" alt="Raspberry Pi">
+              </div>
+              <div class="card-content dark-purple-font">
+                <h5 class="card-title my-title light-blue-font">Materials Used</h5>
+                <form action="#">
+                  <p>
+                    <input type="checkbox" id="mat1" />
+                    <label for="mat1"><span class="dark-purple-font">Raspberry Pi 3</span>
+                    </label>
+                    <button class="button waves-effect waves-light btn blue lighten-3 right buy-button z-depth-1" type="button" data-hover="Adafruit" data-active="Adafruit" onclick="window.location.href='https://www.adafruit.com/product/3055'">
+                      <span>Buy Now</span>
+                    </button>
+                  </p>
+                  <p>
+                    <input class="dark-purple-text" type="checkbox" id="mat2" />
+                    <label for="mat2"><span class="dark-purple-font">SD card for installing OS</span>
+                    </label>
+                    <button class="button waves-effect waves-light btn blue lighten-3 right buy-button z-depth-1" type="button" data-hover="Amazon" data-active="Amazon" onclick="window.location.href='https://www.amazon.com/dp/B01H5ZNOYG/ref=olp_product_details?_encoding=UTF8&me='">
+                      <span>Buy Now</span>
+                    </button>
+                  </p>
+                  <p>
+                    <input type="checkbox" id="mat3" />
+                    <label for="mat3"><span class="dark-purple-font">DC Stepper Motor HAT</span>
+                    </label>
+                    <button class="button waves-effect waves-light btn blue lighten-3 right buy-button z-depth-1" type="button" data-hover="Adafruit" data-active="Adafruit" onclick="window.location.href='https://www.adafruit.com/product/2348'">
+                      <span>Buy Now</span>
+                    </button>
+                  </p>
+                  <p>
+                    <input type="checkbox" id="mat4" />
+                    <label for="mat4"><span class="dark-purple-font">PiCamera</span>
+                    </label>
+                    <button class="button waves-effect waves-light btn blue lighten-3 right buy-button z-depth-1" type="button" data-hover="Adafruit" data-active="Adafruit" onclick="window.location.href='https://www.adafruit.com/product/3099'">
+                      <span>Buy Now</span>
+                    </button>
+                  </p>
+                  <p>
+                    <input type="checkbox" id="mat5" />
+                    <label for="mat5"><span class="dark-purple-font">2WD Chassis Kit</span>
+                    </label>
+                    <button class="button waves-effect waves-light btn blue lighten-3 right buy-button z-depth-1" type="button" data-hover="Adafruit" data-active="Adafruit" onclick="window.location.href='https://www.adafruit.com/product/2939'">
+                      <span>Buy Now</span>
+                    </button>
+                  </p>
+                  <p>
+                    <input type="checkbox" id="mat6" />
+                    <label for="mat6"><span class="dark-purple-font">Pi Mobile Power Supply</span>
+                    </label>
+                    <button class="button waves-effect waves-light btn blue lighten-3 right buy-button z-depth-1" type="button" data-hover="Amazon" data-active="Amazon" onclick="window.location.href='https://www.amazon.com/Anker-PowerCore-Lipstick-Sized-Generation-Batteries/dp/B005X1Y7I2/ref=sr_1_6?ie=UTF8&qid=1514187051&sr=8-6&keywords=mobile+power+bank'">
+                      <span>Buy Now</span>
+                    </button>
+                  </p>
+                  <p>
+                    <input type="checkbox" id="mat7" />
+                    <label for="mat7"><span class="dark-purple-font">Motor HAT Power Supply</span>
+                    </label>
+                    <button class="button waves-effect waves-light btn blue lighten-3 right buy-button z-depth-1" type="button" data-hover="Adafruit" data-active="Adafruit" onclick="window.location.href='https://www.adafruit.com/product/830'">
+                      <span>Buy Now</span>
+                    </button>
+                  </p>
+                  <p>
+                    <input type="checkbox" id="mat8" />
+                    <label for="mat8">
+                      <span class="dark-purple-font">Breadboard wiring</span>
+                    </label>
+                    <button class="button waves-effect waves-light btn blue lighten-3 right buy-button z-depth-1" type="button" data-hover="Amazon" data-active="Amazon" onclick="window.location.href='https://www.amazon.com/Adafruit-Premium-Female-Extension-Jumper/dp/B00SK8L0IU/ref=sr_1_3?s=electronics&ie=UTF8&qid=1514203461&sr=1-3&keywords=pi+wiring'">
+                      <span>Buy Now</span>
+                    </button>
+                  </p>
+                  <p>
+                    <input type="checkbox" id="mat9" />
+                    <label for="mat9">
+                      <span class="dark-purple-font">Electrical Tape</span>
+                    </label>
+                    <button class="button waves-effect waves-light btn blue lighten-3 right buy-button z-depth-1" type="button" data-hover="Amazon" data-active="Amazon" onclick="window.location.href='https://www.amazon.com/Duck-299006-4-Inch-Utility-Electrical/dp/B001B19JLS/ref=sr_1_3?s=industrial&ie=UTF8&qid=1514203537&sr=1-3&keywords=electrical+tape'">
+                      <span>Buy Now</span>
+                    </button>
+                  </p>
+                  <p>
+                    <input type="checkbox" id="mat10" />
+                    <label for="mat10">
+                      <span class="dark-purple-font">Googly Eyes</span>
+                    </label>
+                    <button class="button waves-effect waves-light btn blue lighten-3 right buy-button z-depth-1" type="button" data-hover="Amazon" data-active="Amazon" onclick="window.location.href='https://www.amazon.com/Toy-Assorted-Googly-Monster-Puppets/dp/B013FA2N38/ref=sr_1_4?s=toys-and-games&ie=UTF8&qid=1514203361&sr=1-4&keywords=eye+rings'">
+                        <span>Buy Now</span>
+                    </button>
+                  </p>
+                  <p>
+                    <input type="checkbox" id="mat11" />
+                    <label for="mat11">
+                      <span class="dark-purple-font">Cardboard</span>
+                    </label>
+                  </p>
+                </form>
+              </div>
+              <div class="card-action center-align">
+                <a class="waves-effect waves-light btn blue lighten-3 z-depth-1" href="https://github.com/WatPi/WatPi#list-of-materials">Full List of Materials</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="min-width">
+            <div class="col s12 m6 l4">
+              <div class="card hoverable z-depth-2 feature">
+                <div class="card-image">
+                  <img src="https://github.com/WatPi/WatPi-Project-Site/raw/master/media/watpi-resized.png" alt="Our WatPi">
+                </div>
+                <div class="card-content dark-purple-font">
+                  <h5 class="card-title my-title light-blue-font">Assembling WatPi</h5>
+                  <p>
+                    Here are a few links to resources to get you started on making your own WatPi:
+                  </p>
+                  <div class="collection" style="margin-bottom:12px">
+                    <a class="collection-item valign-wrapper blue-font" href="https://www.raspberrypi.org/learning/software-guide/">
+                      <span class="icon-brand2 secondary-content blue-text text-darken-2"></span>Step-by-Step Guide to Raspberry
+                      Pi
+                    </a>
+                    <a class="collection-item valign-wrapper blue-font" href="https://learn.adafruit.com/simple-raspberry-pi-robot?embeds=allow">
+                      <span class="icon-tools secondary-content blue-text text-darken-2"></span>Assemble the Rover and Connect
+                      a Motor HAT</a>
+                    <a class="collection-item valign-wrapper blue-font" href="https://www.youtube.com/watch?v=QKbJxytERvg">
+                      <span class="icon-circuit-board secondary-content blue-text text-darken-2"></span>How To Solder the Motor
+                      HAT
+                    </a>
+                    <a class="collection-item valign-wrapper blue-font" href="https://picamera.readthedocs.io/en/release-1.13/">
+                      <span class="icon-camera2 secondary-content blue-text text-darken-2"></span>PiCamera Documentation
+                    </a>
+                  </div>
+                </div>
+                <div class="card-action center-align">
+                  <a class="waves-effect waves-light btn blue lighten-3 z-depth-1" href="https://github.com/WatPi/WatPi/wiki">Full List of Resources</a>
+                </div>
+              </div>
+            </div>
+        </div>
+        <div class="min-width">
+          <div class="col s12 m6 l4">
+            <div class="card hoverable z-depth-2 feature">
+              <div class="card-image">
+                <img src="https://github.com/WatPi/WatPi-Project-Site/raw/master/media/group_selfie.jpg" alt="Lex, Lola, and Maki">
+              </div>
+              <div class="card-content dark-purple-font">
+                <h5 class="card-title my-title light-blue-font">WatPi Creators</h5>
+                <ul class="collection" style="margin-bottom:0px">
+                  <li class="collection-item avatar valign-wrapper">
+                    <img src="https://avatars1.githubusercontent.com/u/4056118?s=460&v=4" alt="Lex Myers" class="circle">
+                    <div>
+                      <span class="title bold">Lex Myers</span>
+                      <p class="thin small">
+                        Websocket slayer
+                        <br>User login & registration
+                      </p>
+                    </div>
+                    <a class="secondary-content waves-effect waves-light btn-floating blue lighten-3 center-align valign-wrapper right" href="https://github.com/lexm"><span class="icon-brand"></span>
+                    </a>
+                    <br>
+                  </li>
+                  <li class="collection-item avatar valign-wrapper">
+                    <img src="https://avatars3.githubusercontent.com/u/23284999?s=460&v=4" alt="Lola Wang" class="circle">
+                    <div>
+                      <span class="title bold">Lola Wang</span>
+                      <p class="thin small">
+                        Robot boss / Django's GF
+                        <br>Front-end design
+                      </p>
+                    </div>
+                    <a class="secondary-content waves-effect waves-light btn-floating blue lighten-3 center-align valign-wrapper right" href="https://github.com/ayuspark"><span class="icon-brand"></span>
+                    </a>
+                    <br>
+                  </li>
+                  <li class="collection-item avatar valign-wrapper">
+                    <img src="https://avatars0.githubusercontent.com/u/18458620?s=460&v=4" alt="Maki Roggers" class="circle">
+                    <div>
+                      <span class="title bold">Maki Roggers</span>
+                      <p class="thin small">
+                        Project manager
+                        <br>Camera & API integration
+                      </p>
+                    </div>
+                    <a class="secondary-content waves-effect waves-light btn-floating blue lighten-3 center-align valign-wrapper right" href="https://github.com/makiroggers"><span class="icon-brand"></span>
+                    </a>
+                    <br>
+                  </li>
+                </ul>
+              </div>
+              <div class="card-action center-align">
+                <a class="waves-effect waves-light btn blue lighten-3 z-depth-1" href="https://github.com/WatPi">WatPi Github Repo</a>
+              </div>
             </div>
           </div>
         </div>
