@@ -186,9 +186,10 @@
   }
   
   .logo {
-    height: 35px!important;
-    width: 35px!important;
+    min-height: 35px!important;
+    min-width: 35px!important;
     margin-right: .7rem!important;
+    margin-top: -5px!important;
   }
   
   .medium-blue {
